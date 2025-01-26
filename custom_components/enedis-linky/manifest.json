@@ -1,7 +1,7 @@
 {
     "domain": "enedis_linky",
     "name": "Enedis-Linky",
-    "version": "0.0.1"
+    "version": "0.0.1",
     "codeowners": [],
     "dependencies": [],
     "documentation": "https://www.example.com",
