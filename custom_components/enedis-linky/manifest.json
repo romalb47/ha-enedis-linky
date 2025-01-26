@@ -1,6 +1,7 @@
 {
     "domain": "azuras.beer",
     "name": "Enedis-Linky",
+    "version": "0.0.1"
     "codeowners": [],
     "dependencies": [],
     "documentation": "https://www.example.com",
