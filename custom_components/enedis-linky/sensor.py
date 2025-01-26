@@ -69,7 +69,7 @@ class EnedisSensor(SensorEntity):
         url = f"https://conso.boris.sh/api/daily_consumption?prm={self._prm}&start={get_previous_day()}&end={get_actual_day()}"
 
 
-        response = requests.get(self.url, headers=headers)
+        response = requests.get(url, headers=headers)
         if response.status_code == 200:
             self._attr_native_value = response.json()["interval_reading"][0]["value"]
         else:
