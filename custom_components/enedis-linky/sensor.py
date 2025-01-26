@@ -47,7 +47,7 @@ def get_previous_day():
 class EnedisSensor(SensorEntity):
     """Representation of a Sensor."""
 
-    _attr_name = "Energy Measurement"
+    _attr_name = "Linky Energy Measurement"
     _attr_native_unit_of_measurement = UnitOfEnergy.WATT_HOUR
     _attr_device_class = SensorDeviceClass.ENERGY
     _attr_state_class = SensorStateClass.MEASUREMENT
